@@ -18,6 +18,7 @@ enum class ServoEnum {
 	VDC,	// DC link voltage(VDC); 8,192 = 640V (200V) or 1280V (400V) 
 	SFERR,	// Semi-Full error(SFERR); 1 = Detection unit(1 pulse) 
 	ALGCMD,	// Analog signal command(ALGCMD); 32,767 = 100% (Maximum analog signal command)
+	ALGFB,	// Analog signal feedback(ALGFB); 32,767 = = 100% (Maximum analog signal feedback)
 	IR,		// R-phase current(IR); 6,554  = The maximum current value of amplifier (A) 
 	IR1,	// R-phase current(PDM Slave1)(IR1); 6,554  = The maximum current value of amplifier (A) 
 	IR2,	// R-phase current(PDM Slave2)(IR2); 6,554  = The maximum current value of amplifier (A) 
